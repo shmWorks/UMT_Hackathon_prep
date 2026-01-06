@@ -1,3 +1,8 @@
+"""
+Lesson 02: Variables as Tags and Mutability
+Topics: Immutability (int) vs Mutability (list), Memory Addresses, Variable Assignment.
+Proves that Python variables are tags/labels attached to objects, not boxes holding data.
+"""
 # --- 1. The "Box" Illusion (Immutable Objects) ---
 # Integers are immutable. You can't change the number 10. 
 # You can only move the tag to a different number.

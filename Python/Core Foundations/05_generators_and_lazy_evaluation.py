@@ -1,3 +1,8 @@
+"""
+Lesson 05: Generators and Lazy Evaluation
+Topics: yield, next(), Generator Objects, State Retention.
+Demystifies the handshake between the Producer (yield) and the Consumer (next).
+"""
 def coffee_machine():
     print("--- Machine: Starting brew... ---")
     yield "Espresso"  # Pauses here

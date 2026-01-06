@@ -1,3 +1,8 @@
+"""
+Lesson 01: Object References and Copying
+Topics: Identity (is), Equality (==), Shallow Copy vs Deep Copy.
+This script demonstrates how Python handles memory assignment and the 'Variables as Tags' concept.
+"""
 import copy
 '''
 Project: “State Inspector”

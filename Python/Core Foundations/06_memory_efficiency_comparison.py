@@ -1,3 +1,8 @@
+"""
+Lesson 06: Memory Efficiency Comparison
+Topics: List vs Tuple vs Set memory footprints.
+Provides empirical evidence of why tuples are more lightweight than lists and sets.
+"""
 import sys
 
 # Compare a list,tuple,set with the same items

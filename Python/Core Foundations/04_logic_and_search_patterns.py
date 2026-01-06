@@ -1,3 +1,8 @@
+"""
+Lesson 04: Logic and Search Patterns
+Topics: all(), any(), short-circuiting, and using next() for functional searching.
+Demonstrates efficient ways to validate collections and find specific items.
+"""
 # The Truthiness Checklist
 results = [True, True, False]
 

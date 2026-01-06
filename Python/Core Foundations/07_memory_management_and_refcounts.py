@@ -1,3 +1,8 @@
+"""
+Lesson 07: Memory Management and Refcounts
+Topics: sys.getrefcount(), Temporary Ghost Tags, Internal Function Scoping.
+Explains the 'mystery' of why refcounts are often one higher than expected.
+"""
 import sys
 
 # 1. Create a brand new object

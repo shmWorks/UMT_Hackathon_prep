@@ -1,3 +1,8 @@
+"""
+Lesson 08: Garbage Collection and Cycle Detection
+Topics: Generational GC, Circular References, Collection Thresholds.
+Deep dive into Layer 2 of Python's memory defense system.
+"""
 import gc
 import sys
 

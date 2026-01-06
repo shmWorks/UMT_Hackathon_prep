@@ -1,3 +1,8 @@
+"""
+Lesson 03: Pythonic Design and Pass-by-Object-Reference
+Topics: Dynamic Typing, Reference Counting, Function Scoping and Mutation.
+Explains the 'Everything is an Object' philosophy and how arguments are passed to functions.
+"""
 import sys
 import Life
 

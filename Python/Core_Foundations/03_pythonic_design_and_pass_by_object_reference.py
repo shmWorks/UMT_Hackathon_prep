@@ -4,7 +4,6 @@ Topics: Dynamic Typing, Reference Counting, Function Scoping and Mutation.
 Explains the 'Everything is an Object' philosophy and how arguments are passed to functions.
 """
 import sys
-import Life
 
 # --- 1. The "Tag" has no type. The Object has the type. ---
 def analyze(tag_name, thing):

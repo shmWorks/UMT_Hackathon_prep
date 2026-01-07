@@ -39,7 +39,7 @@ def preprocess_topic(topic: str) -> bool:
         topic (str): The raw topic string from the user or previous step.
     Returns:
         bool: True if topic is technically relevant, False if irrelevant.
-    Examples::
+    Examples:
         >>> preprocess_topic("AI")
         True
         >>> preprocess_topic("Pizza")

@@ -1,5 +1,11 @@
 # Techverse AI Hackathon Guide Book
 
+## Overview
+Techverse AI Hackathon is your chance to innovate, collaborate, and solve real-world
+problems using Generative AI or Agentic AI. It’s the perfect platform to gain hands-on
+experience, connect with like-minded innovators, and showcase your AI engineering and
+problem-solving skills.
+
 ## Hackathon Rules
 - **Duration**: 48 hours (all work must be completed within this window).
 - **Tools & Frameworks**: Pre-built libraries allowed (must be disclosed and used minimally).

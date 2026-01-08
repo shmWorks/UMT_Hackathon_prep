@@ -1,0 +1,134 @@
+SOFTWARE SERVICES AGREEMENT
+
+This Software Services Agreement ("Agreement") is entered into as of January 15, 2026 ("Effective Date") by and between:
+
+PROVIDER: TechCorp Solutions Inc., a Delaware corporation with offices at 123 Innovation Drive, San Francisco, CA 94105 ("Provider")
+
+CLIENT: Acme Industries LLC, a California limited liability company with offices at 456 Business Park, Los Angeles, CA 90001 ("Client")
+
+RECITALS
+
+WHEREAS, Provider is in the business of developing and providing software solutions; and
+
+WHEREAS, Client desires to engage Provider to develop and maintain certain software applications;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements set forth herein, the parties agree as follows:
+
+1. SERVICES
+
+1.1 Scope of Services. Provider agrees to provide the software development services described in Exhibit A attached hereto ("Services").
+
+1.2 Service Level Agreement. Provider shall maintain an uptime of 99.5% for all hosted services, measured on a monthly basis.
+
+1.3 Support. Provider shall provide 24/7 technical support via email and phone during the term of this Agreement.
+
+2. TERM AND TERMINATION
+
+2.1 Initial Term. This Agreement shall commence on the Effective Date and continue for a period of twelve (12) months ("Initial Term").
+
+2.2 Renewal. Following the Initial Term, this Agreement shall automatically renew for successive twelve (12) month periods ("Renewal Terms") unless either party provides written notice of non-renewal at least sixty (60) days prior to the end of the then-current term.
+
+2.3 Termination for Convenience. Either party may terminate this Agreement upon ninety (90) days' prior written notice to the other party.
+
+2.4 Termination for Cause. Either party may terminate this Agreement immediately upon written notice if the other party: (a) materially breaches this Agreement and fails to cure such breach within thirty (30) days of receiving written notice; or (b) becomes insolvent or files for bankruptcy.
+
+2.5 Effect of Termination. Upon termination, Client shall pay all fees accrued through the termination date. Provider shall return or destroy all Client data within thirty (30) days of termination.
+
+3. FEES AND PAYMENT
+
+3.1 Fees. Client agrees to pay Provider the fees set forth in Exhibit B attached hereto.
+
+3.2 Payment Terms. All invoices are due and payable within thirty (30) days of the invoice date. Late payments shall accrue interest at a rate of 1.5% per month.
+
+3.3 Annual Price Increases. Provider reserves the right to increase fees by up to 5% annually upon sixty (60) days' notice.
+
+3.4 Expenses. Client shall reimburse Provider for all pre-approved travel and out-of-pocket expenses.
+
+4. INTELLECTUAL PROPERTY
+
+4.1 Provider IP. Provider retains all rights to its pre-existing intellectual property and any tools, frameworks, or methodologies developed independently of this Agreement.
+
+4.2 Client IP. Upon full payment, Client shall own all custom software developed specifically for Client under this Agreement ("Deliverables").
+
+4.3 License to Provider IP. Provider grants Client a non-exclusive, perpetual license to use any Provider IP incorporated into the Deliverables.
+
+5. CONFIDENTIALITY
+
+5.1 Definition. "Confidential Information" means any non-public information disclosed by either party, including but not limited to business plans, customer data, and technical specifications.
+
+5.2 Obligations. Each party agrees to: (a) maintain the confidentiality of the other party's Confidential Information; (b) not disclose such information to third parties without prior written consent; and (c) use such information only for the purposes of this Agreement.
+
+5.3 Duration. Confidentiality obligations shall survive termination for a period of five (5) years.
+
+6. INDEMNIFICATION
+
+6.1 Provider Indemnification. Provider shall indemnify, defend, and hold harmless Client from any claims arising from: (a) Provider's breach of this Agreement; or (b) any claim that the Deliverables infringe third-party intellectual property rights.
+
+6.2 Client Indemnification. Client shall indemnify, defend, and hold harmless Provider from any claims arising from: (a) Client's breach of this Agreement; or (b) Client's use of the Deliverables in violation of applicable law.
+
+6.3 Indemnification Cap. NOTWITHSTANDING THE FOREGOING, NEITHER PARTY'S INDEMNIFICATION OBLIGATIONS SHALL EXCEED THE TOTAL FEES PAID OR PAYABLE UNDER THIS AGREEMENT IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+7. LIMITATION OF LIABILITY
+
+7.1 Exclusion of Damages. IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, REGARDLESS OF THE CAUSE OF ACTION.
+
+7.2 Liability Cap. EXCEPT FOR BREACHES OF CONFIDENTIALITY OR INDEMNIFICATION OBLIGATIONS, EACH PARTY'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID BY CLIENT TO PROVIDER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+8. REPRESENTATIONS AND WARRANTIES
+
+8.1 Provider Warranties. Provider represents and warrants that: (a) it has the right and authority to enter into this Agreement; (b) the Services will be performed in a professional and workmanlike manner; and (c) the Deliverables will conform to the specifications in Exhibit A for a period of ninety (90) days following delivery.
+
+8.2 Disclaimer. EXCEPT AS EXPRESSLY SET FORTH HEREIN, PROVIDER MAKES NO OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+9. DISPUTE RESOLUTION
+
+9.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California.
+
+9.2 Arbitration. Any dispute arising out of this Agreement shall be resolved by binding arbitration administered by JAMS in San Francisco, California.
+
+9.3 Attorney's Fees. The prevailing party in any dispute shall be entitled to recover its reasonable attorney's fees and costs.
+
+10. GENERAL PROVISIONS
+
+10.1 Entire Agreement. This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, or agreements.
+
+10.2 Amendment. This Agreement may not be amended except by a written instrument signed by both parties.
+
+10.3 Assignment. Neither party may assign this Agreement without the prior written consent of the other party.
+
+10.4 Force Majeure. Neither party shall be liable for delays or failures in performance resulting from causes beyond its reasonable control.
+
+10.5 Notices. All notices shall be in writing and sent to the addresses set forth above.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+PROVIDER:
+TechCorp Solutions Inc.
+
+By: ____________________________
+Name: Sarah Johnson
+Title: Chief Executive Officer
+Date: January 15, 2026
+
+CLIENT:
+Acme Industries LLC
+
+By: ____________________________
+Name: Michael Chen
+Title: President
+Date: January 15, 2026
+
+
+EXHIBIT A - SCOPE OF SERVICES
+
+1. Custom CRM Development
+2. API Integration Services
+3. Cloud Migration Support
+4. Ongoing Maintenance and Support
+
+EXHIBIT B - FEE SCHEDULE
+
+Initial Development: $150,000
+Monthly Maintenance: $5,000/month
+Support Hours: Included in maintenance fee
+Additional Development: $200/hour

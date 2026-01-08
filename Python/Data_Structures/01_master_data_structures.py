@@ -107,3 +107,45 @@ def mock_search(query):
 
 print("\n--- Exercise 4: Tuple Keys ---")
 # Write your caching logic here...
+
+
+
+# Context:
+# You are building a Chatbot that remembers the user's name.
+# You have a raw "memory" list. You need to format it into a string to send to the LLM as context.
+
+# The Task:
+
+# Create a list of dictionaries called chat_history.
+    # Item 1: {"role": "user", "content": "My name is Ahmad."}
+    # Item 2: {"role": "assistant", "content": "Hello Ahmad."}
+    # Item 3: {"role": "user", "content": "What is 2+2?"}
+# The Extraction: Write a List Comprehension that extracts only the content from messages sent by the "user".
+# The Formatting: Join these strings into a single paragraph separated by |.
+# The Safety Check: Imagine a 4th message arrives: {"role": "system"} (Missing "content"). Ensure your code handles this without crashing (use .get()).
+
+chat_history = [
+    {"role": "user", "content": "My name is Ahmad."},
+    {"role": "assistant", "content": "Hello Ahmad."},
+    {"role": "user", "content": "What is 2+2?"},
+    {"role": "system"}  # <--- The Trap: Missing 'content' key
+]
+
+# Logic: 
+# 1. Loop through every message (msg) in chat_history
+# 2. Check if the role is "user"
+# 3. If yes, extract "content" safely. 
+# 4. We add a check `if msg.get("content")` to ensure we don't include empty strings.
+
+user_content_list = [
+    msg.get("content", "")               # The Extraction (Safe)
+    for msg in chat_history              # The Loop
+    if msg.get("role") == "user"         # The Filter
+]
+
+# Result so far: ['My name is Ahmad.', 'What is 2+2?']
+
+# The separator " | " helps the LLM distinguish between separate thoughts.
+final_output = " | ".join(user_content_list)
+
+print(f"Context String: {final_output}")

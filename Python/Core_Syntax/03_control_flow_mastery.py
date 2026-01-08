@@ -65,7 +65,7 @@ while True:
     if decision['action'] == "FINISH":
         print(f"Final Answer: {decision['content']}")
         # STOP THE LOOP HERE
-        pass # <--- REPLACE 'pass' with the correct keyword
+        break # <--- REPLACE 'pass' with the correct keyword
     
     if turn > 10:
         print("Emergency Stop: Too many turns!")

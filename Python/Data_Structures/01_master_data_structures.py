@@ -23,7 +23,7 @@ agent_state = {
     ]
 }
 
-def get_last_search_result(state):
+def get_last_search_result(state:dict[str,any]) -> str:
     # CHALLENGE 1: 
     # Extract the 'result' of the LAST successful 'search' tool usage.
     # Rules:
@@ -31,7 +31,17 @@ def get_last_search_result(state):
     # 2. Iterate backwards.
     # 3. Ignore None items in the list.
     # 4. Return "No result" if nothing found.
-    pass # <--- IMPLEMENT THIS
+    tools_output = state.get("tools_output")
+    
+    if not tools_output:
+        return "No result" 
+    
+    tool_output_latest_to_old = reversed(tools_output)
+    for output in tool_output_latest_to_old:
+        if output is not None and output.get("tool") == "search":
+            return output.get("result", "No result")
+        
+    return "No result"
 
 print("--- Exercise 1: Nested Extraction ---")
 # print(get_last_search_result(agent_state))

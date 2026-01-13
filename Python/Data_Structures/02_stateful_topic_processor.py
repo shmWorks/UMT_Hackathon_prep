@@ -28,10 +28,10 @@ def run_pipeline(topics: list[str]) -> dict:
     # 2. PROCESS & UPDATE STATE
     for topic in topics:
         if preprocess_topic(topic):
-            print(f"✅ Approved: {topic}")
+            print(f"Approved: {topic}")
             state["processed"].append(topic)
         else:
-            print(f"❌ Rejected: {topic}")
+            print(f"Rejected: {topic}")
             state["skipped"].append(topic)
 
     # 3. CALCULATE FINAL STATE METRICS
